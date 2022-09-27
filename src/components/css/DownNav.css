@@ -1,0 +1,45 @@
+#DownNavigation {
+  padding-top: 8vh;
+  padding-left: 230px;
+  height: 110px;
+  width: 100%;
+  background-color: #191914;
+  color: white;
+}
+.hrlineH {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(143, 143, 143, 0.4);
+}
+.cardsContent {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.cardH {
+  padding: 5px 13px;
+  border-radius: 20px;
+  background-color: rgba(104, 103, 103, 0.3);
+  margin: 2px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid rgb(78, 78, 78);
+}
+.cardH:hover {
+  color: black;
+  background-color: white;
+}
+.checked {
+  color: black;
+  background-color: white;
+}
+
+.cardsContent::-webkit-scrollbar{
+    display: none;
+}
+.hrlineHL{
+  margin-top: 6px;
+}

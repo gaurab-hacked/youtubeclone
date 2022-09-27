@@ -1,0 +1,89 @@
+#sideNav {
+  width: 225px;
+  height: 100%;
+  background-color: #191914;
+  color: white;
+  padding-top: 8vh;
+  overflow-y: scroll;
+  position: fixed;
+}
+#sideNav ul {
+  list-style: none;
+}
+#sideNav ul li {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+#sideNav ul li:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+#sideNav ul li span {
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.hrline {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(199, 199, 199, 0.5);
+  margin: 20px 0;
+}
+#sideNav ul li p {
+  text-transform: uppercase;
+}
+#subs {
+  text-transform: uppercase;
+  margin-left: 25px;
+  font-size: 16px;
+  color: rgb(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+.seventhSection p {
+  padding: 20px;
+  text-align: justify;
+  font-size: 13px;
+  color: rgb(255, 255, 255, 0.7);
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#copyright {
+  margin-top: -20px;
+  font-size: 12px;
+  color: rgb(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+#subscription ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.sectionsL ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sectionsL img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
