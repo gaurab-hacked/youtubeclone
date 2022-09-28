@@ -21,6 +21,8 @@ const Eachvideo = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="options">
                 <div className="watLater">Watch later</div>
                 <div className="ATQ">Add to Queue</div>
             </div>

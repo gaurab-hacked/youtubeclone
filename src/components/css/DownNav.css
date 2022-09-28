@@ -5,6 +5,8 @@
   width: 100%;
   background-color: #191914;
   color: white;
+  position: fixed;
+  z-index: 10000;
 }
 .hrlineH {
   height: 1px;

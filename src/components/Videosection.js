@@ -11,6 +11,11 @@ const Videosection = () => {
         <Eachvideo/>
         <Eachvideo/>
         <Eachvideo/>
+        <Eachvideo/>
+        <Eachvideo/>
+        <Eachvideo/>
+        <Eachvideo/>
+        <Eachvideo/>
       </div>
     </div>
   )
